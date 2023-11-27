@@ -13,3 +13,10 @@ def add_event():
             values=(selected_date,event))
         event_entry.delete(0,"end") 
 
+#delete selected event
+def delete_event():
+    selected_item= event_calendar.seletion()
+    if selected_item:
+        event_calendar.delete(selected_item)      
+
+
