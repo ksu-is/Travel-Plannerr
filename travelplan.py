@@ -45,3 +45,41 @@ cal= calendar(
     forgeground="black"
 )
 cal.pack(pady=20, padx=10)
+
+#input fields
+event_frame = tk.Frame(root)
+event_frame.pack(pady=10)
+
+event_label = tk.Label(
+    event_frame,
+    text="Event:",
+    font=("Helvetica",16)
+)
+event_label.grid(row=0,column=0)
+
+event_entry= tk.Entry(
+    event_frame,
+    font=("Helvetica",16)
+)
+event_entry.grid(row=0, column=1)
+
+add_button = tk.Button(
+    event_frame,
+    text="Add Event",
+    command= add_event,
+    font=("Helvetica", 16),
+    bg="#2ecc71",
+    fg="white")
+add_button.grid(row=0, column=2,pradx=10)
+
+delete_button= tk.Button(
+    event_frame,
+    text="Delete Event",
+    command= delete_event,
+    ont=("Helvetica", 16),
+    bg="#e74c3c",
+    fg="white"
+delete_button.grid(row=0,column=3)
+
+)
+
