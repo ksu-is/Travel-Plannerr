@@ -78,8 +78,20 @@ delete_button= tk.Button(
     command= delete_event,
     ont=("Helvetica", 16),
     bg="#e74c3c",
-    fg="white"
+    fg="white")
 delete_button.grid(row=0,column=3)
 
+#Event Listbox
+event_calendar = ttk.Treeview(
+    root,
+    columns= ("Date", "Event"),
+    show="headings",
+    selectmode="browse",
+    height=10
 )
 
+event_calendar.heading("Date", text="Date", anchor="center")
+event_calendar.heading("Event", text= "Event", anchor="center")
+event_calendar.column("Date", width=150, anchor="center")
+event_calendar.column("Event", width=400, anchor="center")
+event_calendar.pack(padx=10,pady=20)
