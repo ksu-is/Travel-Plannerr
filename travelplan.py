@@ -23,3 +23,14 @@ def delete_event():
 root = tk.Tk()
 root.title("Travel Planner") 
 root.geometry("600x600")
+
+#Header
+header_frame = tk.Frame(root, bg="#3498db")
+header_frame.pack(fill="x")
+
+header_label = tk.Label(
+    text= "Travel Planner"
+    font= ("Helvetica",24),
+    bg="#3498db",
+    fg="white")
+header_label.pack(pady=10)
