@@ -19,4 +19,7 @@ def delete_event():
     if selected_item:
         event_calendar.delete(selected_item)      
 
-
+# main window
+root = tk.Tk()
+root.title("Travel Planner") 
+root.geometry("600x600")
