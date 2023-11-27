@@ -34,3 +34,14 @@ header_label = tk.Label(
     bg="#3498db",
     fg="white")
 header_label.pack(pady=10)
+
+#Calendar widget
+cal= calendar(
+    root,
+    selectmode="day",
+    date_pattern= "mm-dd-yyyy",
+    font= ("Helvetica",16),
+    background="white",
+    forgeground="black"
+)
+cal.pack(pady=20, padx=10)
