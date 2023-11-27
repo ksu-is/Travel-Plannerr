@@ -4,9 +4,11 @@
 - [x] Create Project Roadmap to help plan out the steps for building the project
 - [x] Find related repository on Github
 - [x] Clone found repository to your team in IS
-- [ ] Evaluate the code
-- [ ] Download neccesary flask
-- [ ] Install required depedencies 
-- [ ] Work through code
+- [x] Evaluate the code
+- [x] Download neccesary flask
+- [x] Install required depedencies 
+- [x] Work through code
+- [x] Run code
+- [x] Evaluate Errors as they come up
 ## Assigned Team Members:
 * Me
