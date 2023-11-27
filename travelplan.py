@@ -95,3 +95,6 @@ event_calendar.heading("Event", text= "Event", anchor="center")
 event_calendar.column("Date", width=150, anchor="center")
 event_calendar.column("Event", width=400, anchor="center")
 event_calendar.pack(padx=10,pady=20)
+
+#main loop
+root.mainlop()
